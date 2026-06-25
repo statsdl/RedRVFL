@@ -83,14 +83,6 @@ Issues = "https://github.com/statsdl/RedRVFL/issues"
 [tool.setuptools.packages.find]
 where = ["src"]
 
-[tool.black]
-line-length = 99
-target-version = ["py38"]
-
-[tool.isort]
-profile = "black"
-multi_line_output = 3
-
 [tool.pytest.ini_options]
 minversion = "6.0"
 addopts = "-ra -q"
