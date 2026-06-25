@@ -13,4 +13,4 @@ __all__ = [
     "root_mean_squared_error",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
