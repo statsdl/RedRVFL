@@ -8,7 +8,7 @@ def parse_seeds(value):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run the paper-style DJI RedRVFL experiment.")
+    parser = argparse.ArgumentParser(description="Run the financial time series DJI RedRVFL experiment.")
     parser.add_argument("--dataset-path", default="datasets/DJI.csv")
     parser.add_argument("--download", action="store_true")
     parser.add_argument("--seeds", default="0", help="Comma-separated seeds, for example: 0,1,2")

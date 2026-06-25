@@ -32,7 +32,7 @@ pip install -e ".[dev]"
 pytest
 ```
 
-## DJI Paper-Style Experiment
+## Financial Time Series Forecasting Example
 
 ```python
 from redrvfl.finance import download_dji, run_dji_paper_experiment
@@ -55,8 +55,8 @@ model is fitted on train+validation and evaluated on the final test segment.
 Command-line usage:
 
 ```bash
-python examples/run_dji_paper.py --download --seeds 0 --horizon 20 --look-ahead 1
-python examples/run_dji_paper.py --seeds 0,1,2
+python examples/run_finance_forecasting.py --download --seeds 0 --horizon 20 --look-ahead 1
+python examples/run_finance_forecasting.py --seeds 0,1,2
 ```
 
 ## Hyperopt Tuning
@@ -122,3 +122,19 @@ publisher with:
 ## License
 
 MIT
+
+## Reference
+
+If you use RedRVFL in your work, please cite:
+
+```bibtex
+@article{bhambu2024recurrent,
+  title={Recurrent ensemble random vector functional link neural network for financial time series forecasting},
+  author={Bhambu, Aryan and Gao, Ruobin and Suganthan, Ponnuthurai Nagaratnam},
+  journal={Applied Soft Computing},
+  volume={161},
+  pages={111759},
+  year={2024},
+  publisher={Elsevier}
+}
+```

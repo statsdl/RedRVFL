@@ -66,7 +66,7 @@ def run_dji_paper_experiment(
     n_layers: int = 10,
     max_evals: int = 100,
 ) -> list[FinanceRunResult]:
-    """Run the paper-style DJI experiment without writing result artifacts.
+    """Run the financial time series DJI experiment without writing result artifacts.
 
     The split follows the paper: 70% train, 10% validation, 20% test in
     chronological order, then train+validation are combined for final testing.
