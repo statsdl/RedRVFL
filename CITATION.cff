@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use RedRVFL in academic work, please cite this software."
+title: "RedRVFL"
+version: "0.1.0"
+date-released: "2026-06-25"
+authors:
+  - family-names: "Bhambu"
+    given-names: "Aryan"
+license: "MIT"
+repository-code: "https://github.com/aryanbhambu/RedRVFL"
