@@ -105,7 +105,6 @@ and Yahoo Finance dependencies unless they are needed.
 
 ## Repository Notes
 
-The `legacy/`, `utils/`, `RecRVFL_/`, and `ForecastLib.py` files are retained
 for traceability to earlier research scripts. They are not included in the
 published wheel and are not the supported package API.
 
