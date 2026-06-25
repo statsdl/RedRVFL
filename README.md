@@ -14,7 +14,7 @@ Random Vector Functional Link models:
 Core install:
 
 ```bash
-git clone https://github.com/aryanbhambu/RedRVFL.git
+git clone https://github.com/statsdl/RedRVFL.git
 cd RedRVFL
 pip install .
 ```
@@ -114,7 +114,7 @@ published wheel and are not the supported package API.
 The publish workflow uses PyPI Trusted Publishing. Configure the PyPI trusted
 publisher with:
 
-- owner: `aryanbhambu`
+- owner: `statsdl`
 - repository: `RedRVFL`
 - workflow: `publish.yml`
 - environment: `pypi`
